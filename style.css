@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-color: rgb(35, 29, 29);
+}
+.nav {
+  background-color: white(193, 54, 19);
+  overflow: hidden;
+  padding: 20px;
+}
+.navtext {
+  font-size: 50px;
+  color: black;
+  text-decoration-style: dotted;
+}
+.navtext2 {
+  float: right;
+  background-color: rgba(62, 197, 197, 0.778);
+  color: rgb(187, 19, 19);
+  border-radius: 10px;
+  overflow: hidden;
+}
+body {
+  background-image: url(https://militaryarms.ru/wp-content/uploads/2021/08/south-korean-flag-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head {
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 70px;
+  text-align: center;
+  display: inline-block;
+}
+.head :hover {
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+img {
+  width: 100%;
+}
+.cardtext {
+  width: 1420px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.gid {
+  text-align: center;
+}
+.global :hover{transform: scale(1.2);}
+
